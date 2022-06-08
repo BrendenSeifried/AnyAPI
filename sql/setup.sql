@@ -10,4 +10,4 @@ CREATE table teams (
     
 );
 
-INSERT INTO teams (name, founded, founder) VALUES ('Bulls', 1966, 'Dick Klein');
+INSERT INTO teams (name, founded, founder) VALUES ('Bulls', 1966, 'Dick Klein'), ('Hawks', 1946, 'Leo Ferris'), ('Lakers', 1947, 'Ben Berger'), ('Lakers', 1947, 'Ben Berger'), ('Celtics', 1946, 'Walter A. Brown'), ('Warriors', 1946, 'Peter A. Tyrrell') ;
