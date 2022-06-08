@@ -4,8 +4,10 @@ Drop table if exists teams;
 
 CREATE table teams (
     id BIGINT GENERATED ALWAYS AS IDENTITY,
-    name VARCHAR NOT NULL
+    name VARCHAR NOT NULL,
+    founded INT NOT NULL,
+    founder VARCHAR NOT NULL
     
 );
 
-INSERT INTO teams (name) VALUES ('Bulls');
+INSERT INTO teams (name, founded, founder) VALUES ('Bulls', 1966, 'Dick Klein');
